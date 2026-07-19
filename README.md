@@ -1,14 +1,14 @@
 # Georgia Institutional Effectiveness Dashboard
 
-An interactive decision-support dashboard for context-adjusted institutional benchmarking across Georgia four-year colleges and universities.
+An interactive decision-support dashboard for context-adjusted institutional performance benchmarking across Georgia four-year colleges and universities.
 
 The dashboard was developed as part of:
 
-**Beyond Rankings: Equity-Conscious Benchmarking of Student Success in Georgia Higher Education**
+**Beyond Rankings: An Equitable Look at Which Georgia Institutions Deliver for Students, Why and How**
 
 ## Live dashboard
 
-The public dashboard link will be added here after deployment:
+The public interactive dashboard is located at this link:
 
 `https://brandijonesdata/InstitutionalEffectivenessGA.streamlit.app`
 
@@ -50,7 +50,7 @@ Positive values indicate that the observed outcome exceeded the context-based ex
 
 ### Pell equity
 
-Pell equity is expressed as the Pell-recipient outcome minus the corresponding non-Pell outcome.
+Pell equity is expressed as the Pell-recipient outcome minus the corresponding non-Pell outcome, as disparity across Pell recipient percentages has been previously documented.
 
 - Positive values indicate a Pell advantage.
 - Negative values indicate a Pell disadvantage.
@@ -60,19 +60,19 @@ Pell equity is expressed as the Pell-recipient outcome minus the corresponding n
 
 Resource-adequacy measures compare observed institutional resources with the level expected for institutional context and student need.
 
-These measures are capacity proxies. They are not direct measures of instructional quality, service effectiveness, faculty satisfaction, or causal impact.
+These measures are need capacity proxies. They are not direct measures of instructional quality, service effectiveness, faculty or student satisfaction, or indicative of causation.
 
 ### Peer communities and institutional profiles
 
-Peer communities were created from institutional-context similarities. Institutional profiles were created as a separate descriptive classification.
+Peer communities were created from institutional-context similarities using Louvain Community Detection. Institutional profiles were created separately through descriptive classification.
 
 Peer relationships do not represent:
 
-- Institutional rank
-- Collaboration
+- Definitive Institutional rank
+- Facility Quality
 - Transfer relationships
 - Causal influence
-- Institutional quality
+- Institutional Instruction quality
 
 ## How to use the dashboard
 
@@ -122,13 +122,15 @@ This dashboard is designed for diagnostic planning and institutional learning. I
 
 The results are institution-level predictive associations. They do not establish that a specific policy, expenditure, staffing level, or institutional characteristic caused an outcome.
 
-Georgia institutions were excluded from national model fitting and were evaluated after the national benchmarking framework was locked.
+Georgia institutions were excluded from national model fitting and were only evaluated after the national benchmarking framework was finalized.
 
 ## Data source
 
 The dashboard uses 2024 Integrated Postsecondary Education Data System (IPEDS) institutional data.
 
-The Georgia dashboard dataset includes observed and expected completion, completion outperformance, Pell equity, resource adequacy, empirical peer communities, and descriptive institutional profiles.
+'https://nces.ed.gov/ipeds/datacenter'
+
+The Georgia dashboard dataset includes observed and expected completion, completion outperformance, Pell recipient performance equity, resource adequacy, empirical peer communities, and descriptive institutional profiles.
 
 ## Run locally
 
@@ -189,4 +191,5 @@ The application uses:
 
 Brandi Jones  
 Kennesaw State University  
-Comprehensive Examination Project
+Oral Comprehensive Examination Project
+Department of Data Science & Analytics
