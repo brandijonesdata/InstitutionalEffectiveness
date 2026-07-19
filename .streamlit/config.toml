@@ -1,0 +1,59 @@
+[theme]
+base = "light"
+
+primaryColor = "#0F6B68"
+backgroundColor = "#F7F9FC"
+secondaryBackgroundColor = "#E8EFF5"
+textColor = "#102A43"
+linkColor = "#0F6B68"
+
+baseRadius = "medium"
+buttonRadius = "medium"
+borderColor = "#CBD5E1"
+dataframeBorderColor = "#CBD5E1"
+dataframeHeaderBackgroundColor = "#E2E8F0"
+
+showWidgetBorder = true
+showSidebarBorder = true
+
+chartCategoricalColors = [
+    "#0F6B68",
+    "#2B6CB0",
+    "#B7791F",
+    "#6B46C1",
+    "#C05621",
+    "#2F855A",
+    "#718096"
+]
+
+chartSequentialColors = [
+    "#E6FFFA",
+    "#B2F5EA",
+    "#81E6D9",
+    "#4FD1C5",
+    "#38B2AC",
+    "#319795",
+    "#2C7A7B",
+    "#285E61",
+    "#234E52"
+]
+
+chartDivergingColors = [
+    "#C05621",
+    "#DD6B20",
+    "#ED8936",
+    "#FBD38D",
+    "#F7FAFC",
+    "#B2F5EA",
+    "#4FD1C5",
+    "#0F6B68",
+    "#234E52"
+]
+
+[theme.sidebar]
+backgroundColor = "#E8EFF5"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#102A43"
+primaryColor = "#0F6B68"
+borderColor = "#CBD5E1"
+showWidgetBorder = true
