@@ -10,7 +10,7 @@ The dashboard was developed as part of:
 
 The public dashboard link will be added here after deployment:
 
-`https://YOUR-APP-NAME.streamlit.app`
+`https://brandijonesdata/InstitutionalEffectivenessGA.streamlit.app`
 
 ## What the dashboard provides
 
